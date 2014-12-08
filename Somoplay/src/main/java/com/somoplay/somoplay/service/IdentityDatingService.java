@@ -17,7 +17,7 @@ public interface IdentityDatingService  {
 	public List<IdentityDating> findByDistance(Integer content);
 		
 	public IdentityDating save(IdentityDating entry);
-	
+	//
 	public void delete(IdentityDating entry);
 	//
 
