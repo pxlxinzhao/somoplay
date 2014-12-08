@@ -15,7 +15,7 @@ public interface IdentityDatingService  {
 	public List<IdentityDating> findByKeyword(String content);
 	
 	public List<IdentityDating> findByDistance(Integer content);
-		
+		//
 	public IdentityDating save(IdentityDating entry);
 	//
 	public void delete(IdentityDating entry);
